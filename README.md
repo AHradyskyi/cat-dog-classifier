@@ -5,9 +5,9 @@ The project consists of two parts: training the model and using the results for 
 
 ## Training the model
 
-The learning dataset was taken from this [Kaggle page](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset). The original data contains 12,5k images in both categories. Due to a lack of resources, it was reduced to 1,200k images.
+The learning dataset was taken from this [Kaggle page](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset). The original data contains 12.5k images in both categories. Due to a lack of resources, it was reduced to 1.2k images.
 
-Now we have two classes with 1,000 training images and 200 validation images. After that, the VGG19 pretrained model was used.
+We now have two classes, each with 1,000 training images and 200 validation images. After that, the VGG19 pretrained model was used.
 The result of training could be seen in this table:
 || accuracy | loss | val_accuracy | val_loss | learning_rate |
 | --- | --- | -------- | --- | -------- | -------- |
@@ -18,4 +18,6 @@ The result of training could be seen in this table:
 | 59  | 1.0 | 0.000309 | 1.0 | 0.0000150 | 1.000000e-06 |
 
  The graphs show the accuracy and learning rate for this model
+ ![text](https://github.com/AHradyskyi/cat-dog-classifier/blob/main/graphs.png?raw=true)
 
+ ## GUI

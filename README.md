@@ -21,5 +21,7 @@ The result of training could be seen in this table:
  ![text](https://github.com/AHradyskyi/cat-dog-classifier/blob/main/graphs.png?raw=true)
 
  ## GUI
-The Graphical User Interface is a small window that asks the user to load the image. The result shows how precisely the model detects whether it is a cat or a dog.
+The Graphical User Interface is a small window that asks the user to load the image. The result shows how precisely the model detects whether
+an image is of a cat or a dog.
+
  ![text](https://github.com/AHradyskyi/cat-dog-classifier/blob/main/guy_example.png?raw=true)
